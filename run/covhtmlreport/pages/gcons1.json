@@ -1,0 +1,5 @@
+var g_db_data = [
+{dummy:0},
+{name:'cg',f:1,type:6,id:93,tb:'524',h:'10',m:'514',hp:'1.90%',cov:['53.68%','Y'],g:'100.00%',gp:['53.68%','Y'],hdlPath:'/tbench_top/i_intf',parent:'11'},
+{name:'cg',f:1,type:6,id:2172,tb:'524',h:'10',m:'514',hp:'1.90%',cov:['53.68%','Y'],g:'100.00%',gp:['53.68%','Y'],hdlPath:'work.intf',parent:'5'}];
+processConsCovergroupsData(g_db_data);

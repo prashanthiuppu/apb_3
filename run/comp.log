@@ -1,0 +1,20 @@
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+Start time: 12:49:44 on Jul 24,2023
+vlog "+acc" -sv ../dut/apb_design.v "+indir+../dut" ../tb/testbench.sv "+indir+../tb" -l comp.log 
+-- Compiling module apb_slave
+-- Compiling interface intf
+** Warning: ** while parsing file included at ../tb/testbench.sv(1)
+** at ..\tb\interface.sv(53): (vlog-2244) Variable 'cover_inst' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: ** while parsing file included at ../tb/testbench.sv(1)
+** at ..\tb\interface.sv(54): (vlog-2240) Treating stand-alone use of function 'get_coverage' as an implicit VOID cast.
+** Note: (vlog-2286) ../tb/testbench.sv(4): Using implicit +incdir+C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package testbench_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Warning: ..\tb\apb_test.sv(39): (vlog-2240) Treating stand-alone use of function 'flag' as an implicit VOID cast.
+-- Compiling module tbench_top
+
+Top level modules:
+	tbench_top
+End time: 12:49:46 on Jul 24,2023, Elapsed time: 0:00:02
+Errors: 0, Warnings: 3

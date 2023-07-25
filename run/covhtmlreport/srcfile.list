@@ -1,0 +1,13 @@
+../dut/apb_design.v
+../tb/apb_env.sv
+../tb/apb_scoreboard.sv
+../tb/apb_test.sv
+../tb/config.sv
+../tb/interface.sv
+../tb/m_agent.sv
+../tb/m_driver.sv
+../tb/m_monitor.sv
+../tb/m_seq_item.sv
+../tb/ma_sequence.sv
+../tb/ma_sequencer.sv
+../tb/testbench.sv
